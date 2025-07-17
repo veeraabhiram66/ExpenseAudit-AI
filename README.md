@@ -2,49 +2,86 @@
 
 A sophisticated financial data analysis tool that uses **Benford's Law** to detect potential fraud or irregularities in expense data. Built with React, TypeScript, and modern web technologies.
 
+# 💼 ExpenseAudit AI – Financial Anomaly Detection Platform
+
+**An AI-powered platform for financial anomaly detection using Benford’s Law, intelligent dashboards, and GPT-generated summaries. Designed for auditors, analysts, and fintech teams to spot fraud fast and explain it even faster.**
+
+---
+
+## 📌 Overview
+
+ExpenseAudit AI is a powerful audit toolkit that automates the process of detecting unusual financial patterns using **Benford's Law**, advanced analytics, and **LLM-generated** executive summaries. Upload your data → get visual anomaly detection + risk-rated reports → download insights in seconds.
+
+---
+
+## ⚙️ Tech Stack
+
+- **Frontend:** React.js, Tailwind CSS  
+- **Backend:** Node.js, Express.js  
+- **Database:** MongoDB  
+- **AI Layer:** Gemini / GPT APIs  
+- **Visualization:** Chart.js, PDFKit  
+- **Authentication:** JWT, Google OAuth  
+- **Deployment:** Render, Vercel
+
+---
+
+## 🧠 How It Works
+
+1. Upload transaction datasets (.csv, .xlsx, .json)  
+2. System cleans and preprocesses the data  
+3. Benford's Law applied to analyze digit distributions  
+4. Statistical outliers are flagged with scores  
+5. LLM generates summary reports with context  
+6. Full PDF audit reports available for export  
+
+---
+
 ## 🚀 Features
 
-### 1: Data Upload & Preprocessing
-- **Multi-format Support**: Upload CSV, Excel (.xlsx, .xls), or JSON files
-- **Smart Column Detection**: Automatically identifies Amount, Vendor, Date, and Category columns
-- **Data Cleaning**: Removes invalid entries, normalizes currency formats, handles edge cases
-- **Real-time Validation**: Live feedback on data quality and processing results
-- **Interactive Preview**: View both raw and cleaned data with pagination
+### ✅ Smart Data Upload & Preprocessing
+- 🧩 **Multi-format Support:** CSV, Excel, JSON accepted  
+- 🔍 **Auto Column Detection:** Detects Amount, Vendor, Date fields  
+- 🧼 **Cleaning Engine:** Normalizes formats & removes invalid entries  
+- ⚠️ **Validation System:** Real-time user feedback  
+- 👁️‍🗨️ **Preview Table:** View raw and cleaned data side-by-side
 
-### 2: Benford's Law Analysis Engine
-- **First Digit Extraction**: Analyzes leading digits from all transaction amounts
-- **Statistical Analysis**: Calculates Chi-square and MAD (Mean Absolute Deviation) scores
-- **Fraud Detection**: Identifies suspicious vendors and transaction patterns
-- **Risk Assessment**: Provides compliance ratings (Compliant, Acceptable, Suspicious, Highly Suspicious)
-- **Detailed Reporting**: Comprehensive analysis with flagged transactions and vendor insights
+---
 
-### 3: Interactive Visualization Dashboard
+### 📊 Benford's Law Analysis Engine
+- 🔢 **First Digit Extraction:** Analyzes leading digits  
+- 📈 **Chi-Square / MAD Stats:** Scores every vendor  
+- 🚨 **Suspicious Pattern Detection:** Identifies abnormal vendors  
+- 🧾 **Risk Ratings:** Compliant → Suspicious spectrum  
+- 📋 **Insightful Reports:** Vendor-level results breakdown
 
-- **Risk Summary Cards**: At-a-glance overview of fraud detection results
-- **Interactive Bar Chart**: Expected vs Actual digit distribution with hover tooltips
-- **Vendor Analysis Table**: Sortable, filterable table of suspicious vendors with drill-down capability
-- **Flagged Transactions Table**: Searchable, paginated table with export functionality
-- **Deviation Heatmap**: Visual representation of vendor-digit deviation patterns
-- **Export Reports**: Download comprehensive analysis results in JSON format
-- **Real-time Filtering**: Dynamic search and filter capabilities across all data views
+---
 
-### 4: AI-Powered Natural Language Summary
+### 📉 Interactive Fraud Dashboard
+- 🧠 **Risk Cards:** At-a-glance risk scoring  
+- 📊 **Digit Distribution Chart:** Interactive graphs with hover stats  
+- 🏷️ **Anomaly Table:** Track vendor anomalies  
+- 🔎 **Flagged Transactions:** Exportable logs  
+- 🌡️ **Heatmaps:** Deviation visuals by digit & vendor
 
-- **Rule-based AI Summary**: Intelligent analysis and interpretation of results
-- **LLM Integration**: Advanced AI summary with API key
-- **Executive Summary**: Plain-English explanations of fraud detection findings
-- **Risk Assessment**: Automated risk level determination with recommendations
-- **Pattern Recognition**: AI-driven insights into suspicious transaction patterns
-- **Export Integration**: AI summaries included in all export formats
+---
 
-### 5: Professional Export & Reporting
+### 🤖 AI-Powered Natural Language Summary
+- 🗂️ **Rule-based + LLM Analysis:** Clear explanations  
+- 🔗 **Gemini/GPT API Integration:** Human-like summaries  
+- 🧾 **Executive Summary:** Actionable plain-English output  
+- 📡 **Pattern Recognition:** AI surfaces hidden risks  
+- 🧠 **Smart Export:** Summaries embedded into reports
 
-- **PDF Report Generation**: Comprehensive, multi-page audit reports with professional formatting
-- **Customizable Reports**: Configure content, branding, and report structure
-- **Multiple Export Formats**: CSV exports for flagged transactions, vendor analysis, and cleaned datasets
-- **Audit Trail**: Unique report IDs and metadata for compliance requirements
-- **Professional Layout**: Cover pages, executive summaries, charts, and detailed analysis sections
-- **Organization Branding**: Add company names and auditor information to reports
+---
+
+### 📤 Audit-Grade PDF Reporting
+- 📝 **Multi-page PDF Export:** Elegant layout with graphs  
+- 🧷 **Custom Branding:** Add logos, firm names  
+- 🔁 **Multi-format Export:** CSV, PDF, JSON  
+- 📑 **Metadata:** Timestamps and report traceability  
+- 🎨 **Rich Layout:** Visual + textual insights combined
+
 
 ## 🛠️ Technology Stack
 
