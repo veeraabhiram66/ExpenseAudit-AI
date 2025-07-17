@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # ExpenseAudit AI
 
 A sophisticated financial data analysis tool that uses **Benford's Law** to detect potential fraud or irregularities in expense data. Built with React, TypeScript, and modern web technologies.
@@ -235,4 +234,3 @@ export default tseslint.config([
 =======
 # ExpenseAudit-AI
 AI-powered platform for financial anomaly detection using Benford’s Law, AI Analysis, and secure role-based controls.
->>>>>>> 158ac8c7ebb606317926a642c56ae6d816ceb31b
