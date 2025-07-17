@@ -1,0 +1,31 @@
+Amount,Vendor,Date,Description
+1234.56,ACME Corp,2024-01-15,Office supplies
+2345.67,Beta Services,2024-01-16,Consulting
+987.65,ACME Corp,2024-01-17,Equipment
+567.89,Charlie LLC,2024-01-18,Maintenance
+432.10,Delta Industries,2024-01-19,Software license
+9876.54,ACME Corp,2024-01-20,Major purchase
+234.56,Beta Services,2024-01-21,Monthly service
+876.54,Charlie LLC,2024-01-22,Repairs
+654.32,Echo Enterprises,2024-01-23,Supplies
+321.09,Delta Industries,2024-01-24,Hardware
+4567.89,ACME Corp,2024-01-25,Equipment upgrade
+890.12,Beta Services,2024-01-26,Consulting
+567.43,Charlie LLC,2024-01-27,Materials
+234.78,Echo Enterprises,2024-01-28,Office rent
+678.90,Delta Industries,2024-01-29,Software
+123.45,Foxtrot LLC,2024-01-30,Utilities
+789.01,ACME Corp,2024-02-01,Supplies
+456.78,Beta Services,2024-02-02,Service fees
+345.67,Charlie LLC,2024-02-03,Equipment
+890.12,Echo Enterprises,2024-02-04,Maintenance
+567.89,Delta Industries,2024-02-05,License renewal
+123.45,Foxtrot LLC,2024-02-06,Internet service
+987.65,ACME Corp,2024-02-07,Major equipment
+654.32,Beta Services,2024-02-08,Project work
+432.10,Charlie LLC,2024-02-09,Materials
+876.54,Echo Enterprises,2024-02-10,Office supplies
+234.56,Delta Industries,2024-02-11,Software tools
+789.01,Foxtrot LLC,2024-02-12,Utilities
+5432.10,ACME Corp,2024-02-13,Large purchase
+345.67,Beta Services,2024-02-14,Consulting fees
