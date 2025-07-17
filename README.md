@@ -2,7 +2,7 @@
 
 A sophisticated financial data analysis tool that uses **Benford's Law** to detect potential fraud or irregularities in expense data. Built with React, TypeScript, and modern web technologies.
 
-# 💼 ExpenseAudit AI – Financial Anomaly Detection Platform
+# 📈 ExpenseAudit AI – Financial Anomaly Detection Platform
 
 **An AI-powered platform for financial anomaly detection using Benford’s Law, intelligent dashboards, and GPT-generated summaries. Designed for auditors, analysts, and fintech teams to spot fraud fast and explain it even faster.**
 
