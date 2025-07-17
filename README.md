@@ -4,21 +4,21 @@ A sophisticated financial data analysis tool that uses **Benford's Law** to dete
 
 ## 🚀 Features
 
-### ✅ Step 1: Data Upload & Preprocessing (Complete)
+### 1: Data Upload & Preprocessing
 - **Multi-format Support**: Upload CSV, Excel (.xlsx, .xls), or JSON files
 - **Smart Column Detection**: Automatically identifies Amount, Vendor, Date, and Category columns
 - **Data Cleaning**: Removes invalid entries, normalizes currency formats, handles edge cases
 - **Real-time Validation**: Live feedback on data quality and processing results
 - **Interactive Preview**: View both raw and cleaned data with pagination
 
-### ✅ Step 2: Benford's Law Analysis Engine (Complete)
+### 2: Benford's Law Analysis Engine
 - **First Digit Extraction**: Analyzes leading digits from all transaction amounts
 - **Statistical Analysis**: Calculates Chi-square and MAD (Mean Absolute Deviation) scores
 - **Fraud Detection**: Identifies suspicious vendors and transaction patterns
 - **Risk Assessment**: Provides compliance ratings (Compliant, Acceptable, Suspicious, Highly Suspicious)
 - **Detailed Reporting**: Comprehensive analysis with flagged transactions and vendor insights
 
-### ✅ Step 3: Interactive Visualization Dashboard (Complete)
+### 3: Interactive Visualization Dashboard
 
 - **Risk Summary Cards**: At-a-glance overview of fraud detection results
 - **Interactive Bar Chart**: Expected vs Actual digit distribution with hover tooltips
@@ -28,16 +28,16 @@ A sophisticated financial data analysis tool that uses **Benford's Law** to dete
 - **Export Reports**: Download comprehensive analysis results in JSON format
 - **Real-time Filtering**: Dynamic search and filter capabilities across all data views
 
-### ✅ Step 4: AI-Powered Natural Language Summary (Complete)
+### 4: AI-Powered Natural Language Summary
 
 - **Rule-based AI Summary**: Intelligent analysis and interpretation of results
-- **Google Gemini Integration**: Optional advanced AI summary with API key
+- **LLM Integration**: Advanced AI summary with API key
 - **Executive Summary**: Plain-English explanations of fraud detection findings
 - **Risk Assessment**: Automated risk level determination with recommendations
 - **Pattern Recognition**: AI-driven insights into suspicious transaction patterns
 - **Export Integration**: AI summaries included in all export formats
 
-### ✅ Step 5: Professional Export & Reporting (Complete)
+### 5: Professional Export & Reporting
 
 - **PDF Report Generation**: Comprehensive, multi-page audit reports with professional formatting
 - **Customizable Reports**: Configure content, branding, and report structure
@@ -192,7 +192,7 @@ This project follows strict TypeScript and ESLint configurations:
 
 ## 🤝 Contributing
 
-All five steps of ExpenseAudit AI are now complete! The application provides a full fraud detection pipeline from data upload to professional reporting.
+The application provides a full fraud detection pipeline from data upload to professional reporting.
 
 ## 📄 License
 
@@ -205,32 +205,6 @@ MIT License - see LICENSE file for details
 - Designed for real-world financial audit and compliance needs
 - Implements Benford's Law for statistical fraud detection
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-=======
 # ExpenseAudit-AI
 AI-powered platform for financial anomaly detection using Benford’s Law, AI Analysis, and secure role-based controls.
